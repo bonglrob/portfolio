@@ -1,7 +1,8 @@
 const Container = { 
     display: 'flex',
+    flexWrap: 'wrap',
     padding: '6rem',
-    gap: '6rem',
+    gap: '4rem',
 };
 
 const Background = { 
@@ -9,10 +10,23 @@ const Background = {
     width: '100%',
 };
 
+const BackgroundAlt = {
+    backgroundColor: '#911E1E',
+}
+
 const Caption = {
     textTransform: 'uppercase',
     fontSize: '0.88rem',
     margin: 0,
+}
+
+const TextContent = {
+    flex: 1,
+}
+
+const Image = {
+    maxWidth: '50%',
+    flex: 2,
 }
 
 const ProjectLinks = {
@@ -28,7 +42,10 @@ const Content = {
 export const styles = { 
     Container: Container,
     Background: Background,
+    BackgroundAlt: BackgroundAlt,
     Caption: Caption,
+    Image: Image,
     ProjectLinks: ProjectLinks,
     Content: Content,
+    TextContent: TextContent,
 };

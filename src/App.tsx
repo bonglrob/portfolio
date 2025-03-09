@@ -1,6 +1,7 @@
 import "./App.css";
 
 import ProjectTripSplit from "./components/projects/ProjectTripSplit";
+import ProjectGacha from "./components/projects/ProjectGacha";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <section id="projects">
           <h2 className="project-header">Projects</h2>
           <ProjectTripSplit />
+          <ProjectGacha />
         </section>
       </main>
       <footer>

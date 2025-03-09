@@ -5,7 +5,7 @@ function ProjectTripSplit() {
         <>
             <section style={styles.Background}>
                 <div style={styles.Container}>
-                    <div className="text-container">
+                    <div style={styles.TextContent}>
                         <div style={styles.Content}>
                             <p style={styles.Caption}>Web Application</p>
                             <h2>TripSplit</h2>
@@ -19,7 +19,7 @@ function ProjectTripSplit() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/images/tripsplit.svg" alt="tripsplit's landing and expense page" />
+                    <img style={styles.Image} src="/images/tripsplit.svg" alt="tripsplit's landing and expense page" />
                 </div>
             </section>
         </>

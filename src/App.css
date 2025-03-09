@@ -1,7 +1,17 @@
 .project-header {
     text-transform: uppercase;
     color: rgb(99, 99, 218);
-    font-size: 6rem;
-    margin: 0 0 -2.5rem -0.4rem;
+    font-size: 3.4rem;
+    margin-bottom: -1.4rem;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 520px) {
+    .project-header {
+        font-size: 6rem;
+        margin-bottom: -2.5rem;
+        margin-left: -0.4rem;
+        text-align: left;
+    }
 }
