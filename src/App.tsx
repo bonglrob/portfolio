@@ -1,5 +1,6 @@
 import "./App.css";
 
+import Header from "./components/Header";
 import ProjectTripSplit from "./components/projects/ProjectTripSplit";
 import ProjectGacha from "./components/projects/ProjectGacha";
 
@@ -7,16 +8,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <nav>
-          <div className="logo">RB.</div>
-          <ul>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section id="landing-banner">
           <h1>Robert Bonglamphone</h1>
