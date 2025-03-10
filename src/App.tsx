@@ -12,10 +12,10 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <section id="projects">
-          <ProjectTripSplit />
-          <ProjectGacha />
-        </section>
+
+        <ProjectTripSplit />
+        <ProjectGacha />
+        
       </main>
       <footer>
         <p className="copyright">&copy; Copyright 2025 Robert Bonglamphone</p>

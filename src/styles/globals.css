@@ -1,8 +1,13 @@
 :root {
     --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-    --bg-color: black;
+    --bg-color: #1b0123;
     --text-color: #fff;
+    --text-color-hover: #e682d2;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,5 +51,5 @@ nav {
 }
 
 nav:hover {
-    color: turquoise;
+    color: var(--text-color-hover);
 }
