@@ -2,6 +2,10 @@
     font-size: 2rem;
 }
 
+.dot {
+    color: var(--text-color-hover);
+}
+
 .hero {
     display: flex;
     justify-content: center;
