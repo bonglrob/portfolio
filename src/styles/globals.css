@@ -1,7 +1,7 @@
 :root {
     --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-    --bg-color: #1C1D25;
+    --bg-color: black;
     --text-color: #fff;
 }
 

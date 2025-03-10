@@ -1,0 +1,51 @@
+.logo {
+    font-size: 2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    background-color: white;
+    color: black;
+    padding: 0.25rem 1rem;
+}
+
+.project-header {
+    text-transform: uppercase;
+    color: rgb(99, 99, 218);
+    font-size: 3.4rem;
+    margin-bottom: -1.4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media (min-width: 520px) {
+    .project-header {
+        font-size: 6rem;
+        margin-bottom: -2.5rem;
+        margin-left: -0.4rem;
+        text-align: left;
+    }
+}
