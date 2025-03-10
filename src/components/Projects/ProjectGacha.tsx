@@ -5,6 +5,7 @@ function ProjectGacha() {
         <>
             <section style={styles.BackgroundAlt}>
                 <div style={styles.Container}>
+                    <img src="/images/gachapon.svg" alt="landing page of a Japanese gachapon capsule vending machine" />
                     <div style={styles.TextContent}>
                         <div style={styles.Content}>
                             <p style={styles.Caption}>Web Application</p>
@@ -19,7 +20,6 @@ function ProjectGacha() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/images/gachapon.svg" alt="landing page of a Japanese gachapon capsule vending machine" />
                 </div>
             </section>
         </>
