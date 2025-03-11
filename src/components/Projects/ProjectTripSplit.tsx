@@ -21,7 +21,7 @@ function ProjectTripSplit() {
                             </ul>
                         </div>
                     </div>
-                    <img style={styles.Image} src="/images/tripsplit.svg" alt="tripsplit's landing and expense page" />
+                    <img style={styles.Image} src="/images/tripsplit-ui.svg" alt="tripsplit's landing and expense page" />
                 </div>
             </section>
         </>
