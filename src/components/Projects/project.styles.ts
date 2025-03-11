@@ -1,8 +1,6 @@
-import { text } from "@fortawesome/fontawesome-svg-core";
-
 const Container = { 
     display: 'flex',
-    flexWrap: 'wrap',
+    flexWrap: 'wrap' as CSSProperties['flexWrap'],
     padding: '6rem',
     gap: '4rem',
 };
@@ -17,7 +15,7 @@ const BackgroundAlt = {
 }
 
 const Caption = {
-    textTransform: 'uppercase',
+    textTransform: 'uppercase' as 'uppercase',
     fontSize: '0.88rem',
     margin: 0,
 }
@@ -27,18 +25,18 @@ const TextContent = {
 }
 
 const Image = {
-    maxWidth: '50%',
+    minWidth: '50%',
+    maxWidth: '45%',
     flex: 2,
 }
 
 const ProjectLinks = {
     display: 'flex',
-    flexDirection: 'column',
-    gap: '2rem',
+    gap: '1rem',
 }
 
 const Content = {
-    marginBottom: '2rem',
+    marginBottom: '4rem',
 }
 
 export const styles = { 

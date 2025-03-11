@@ -16,8 +16,8 @@ function ProjectTripSplit() {
                         </div>
                         <div className="project-links">
                             <ul style={styles.ProjectLinks}>
-                                <li><a href="https://github.com/bonglrob/trip-expense-tracker" target="_blank">&lt; View the code /&gt;</a></li>
                                 <Button url="https://tripsplit-b7.web.app/landing"/>
+                                <li><a href="https://github.com/bonglrob/trip-expense-tracker" target="_blank">&lt; View the code /&gt;</a></li>
                             </ul>
                         </div>
                     </div>

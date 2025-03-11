@@ -8,7 +8,7 @@ function Hero() {
             <Header />
             <div className="text-group">
                 <h1 className="container">Robert Bonglamphone</h1>
-                <h2 className="container">Full-Stack Software Developer</h2>
+                <h2 className="container alt">Full-Stack Software Developer</h2>
             </div>
             <ChevronIcon />
             <video id="particles-video" className="video-bg" autoPlay muted loop>

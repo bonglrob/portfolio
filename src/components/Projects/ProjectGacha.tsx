@@ -16,8 +16,8 @@ function ProjectGacha() {
                         </div>
                         <div className="project-links">
                             <ul style={styles.ProjectLinks}>
-                                <li><a href="https://github.com/bonglrob/gachapon" target="_blank">&lt; View the code /&gt;</a></li>
                                 <Button url="https://gachapon-prod.web.app/" />
+                                <li><a href="https://github.com/bonglrob/gachapon" target="_blank">&lt; View the code /&gt;</a></li>
                             </ul>
                         </div>
                     </div>
