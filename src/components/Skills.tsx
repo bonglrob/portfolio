@@ -14,6 +14,14 @@ function Skills() {
             <p>HTML, CSS, JS, building small and medium web applications with React.</p>
             <div className="skills-brands-container">
                 <div className="skill-container">
+                    <FontAwesomeIcon icon={faJs} className="icon-size-lg" />
+                    <p className="caption">JavaScript</p>
+                </div>
+                <div className="skill-container">
+                    <FontAwesomeIcon icon={faReact} className="icon-size-lg" />
+                    <p className="caption">React</p>
+                </div>
+                <div className="skill-container">
                     <FontAwesomeIcon icon={faNodeJs} className="icon-size-lg" />
                     <p className="caption">Node.js</p>
                 </div>
@@ -30,16 +38,8 @@ function Skills() {
                     <p className="caption">PHP</p>
                 </div>
                 <div className="skill-container">
-                    <FontAwesomeIcon icon={faReact} className="icon-size-lg" />
-                    <p className="caption">React</p>
-                </div>
-                <div className="skill-container">
                     <FontAwesomeIcon icon={faHtml5} className="icon-size-lg" />
                     <p className="caption">HTML5</p>
-                </div>
-                <div className="skill-container">
-                    <FontAwesomeIcon icon={faJs} className="icon-size-lg" />
-                    <p className="caption">JavaScript</p>
                 </div>
             </div>
         </section>
