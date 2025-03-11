@@ -1,3 +1,4 @@
+import Button from "../Button";
 import { styles } from './project.styles';
 
 function ProjectTripSplit() {
@@ -15,8 +16,8 @@ function ProjectTripSplit() {
                         </div>
                         <div className="project-links">
                             <ul style={styles.ProjectLinks}>
-                                <li><a href="https://github.com/bonglrob/trip-expense-tracker" target="_blank">View the code &gt;</a></li>
-                                <li><a href="https://tripsplit-b7.web.app/landing" target="_blank">View the app &gt;</a></li>
+                                <li><a href="https://github.com/bonglrob/trip-expense-tracker" target="_blank">&lt; View the code /&gt;</a></li>
+                                <Button url="https://tripsplit-b7.web.app/landing"/>
                             </ul>
                         </div>
                     </div>

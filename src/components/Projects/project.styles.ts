@@ -1,3 +1,5 @@
+import { text } from "@fortawesome/fontawesome-svg-core";
+
 const Container = { 
     display: 'flex',
     flexWrap: 'wrap',
@@ -32,11 +34,11 @@ const Image = {
 const ProjectLinks = {
     display: 'flex',
     flexDirection: 'column',
-    gap: '1rem',
+    gap: '2rem',
 }
 
 const Content = {
-    marginBottom: '6rem',
+    marginBottom: '2rem',
 }
 
 export const styles = { 

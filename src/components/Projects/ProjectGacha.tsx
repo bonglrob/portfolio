@@ -1,3 +1,4 @@
+import Button from "../Button";
 import { styles } from './project.styles';
 
 function ProjectGacha() {
@@ -15,8 +16,8 @@ function ProjectGacha() {
                         </div>
                         <div className="project-links">
                             <ul style={styles.ProjectLinks}>
-                                <li><a href="https://github.com/bonglrob/gachapon" target="_blank">View the code &gt;</a></li>
-                                <li><a href="gachapon-prod.web.app/" target="_blank">View the app &gt;</a></li>
+                                <li><a href="https://github.com/bonglrob/gachapon" target="_blank">&lt; View the code /&gt;</a></li>
+                                <Button url="https://gachapon-prod.web.app/" />
                             </ul>
                         </div>
                     </div>
