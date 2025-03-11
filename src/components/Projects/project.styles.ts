@@ -1,3 +1,5 @@
+import { CSSProperties } from 'react';
+
 const Container = { 
     display: 'flex',
     flexWrap: 'wrap' as CSSProperties['flexWrap'],
