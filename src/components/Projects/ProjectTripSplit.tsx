@@ -3,6 +3,7 @@ import { styles } from './project.styles';
 function ProjectTripSplit() {
     return (
         <>
+            <h2 id="projects" className="project-header">Projects</h2>
             <section style={styles.Background}>
                 <div style={styles.Container}>
                     <div style={styles.TextContent}>

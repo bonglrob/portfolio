@@ -1,6 +1,7 @@
 import "./styles/App.css";
 
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 import ProjectTripSplit from "./components/Projects/ProjectTripSplit";
 import ProjectGacha from "./components/Projects/ProjectGacha";
 
@@ -10,6 +11,8 @@ function App() {
     <>
       <main>
         <Hero />
+
+        <Skills />
 
         <ProjectTripSplit />
         <ProjectGacha />

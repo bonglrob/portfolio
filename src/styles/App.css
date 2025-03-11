@@ -33,6 +33,42 @@
     padding: 0.25rem 1rem;
 }
 
+#skills {
+    text-align: center;
+    padding: 2rem 0;
+    --dot-bg: var(--bg-color);
+    --dot-color: var(--text-color);
+    --dot-size: 1px;
+    --dot-space: 22px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+}
+
+.skills-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-size-lg {
+    font-size: 4rem;
+}
+
 .project-header {
     text-transform: uppercase;
     color: rgb(99, 99, 218);
@@ -40,9 +76,6 @@
     margin-bottom: -1.4rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 @media (min-width: 520px) {
