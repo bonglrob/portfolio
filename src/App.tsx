@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import ProjectTripSplit from "./components/Projects/ProjectTripSplit";
 import ProjectGacha from "./components/Projects/ProjectGacha";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -20,9 +21,8 @@ function App() {
         <ProjectTripSplit />
         <ProjectGacha />
       </main>
-      <footer>
-        <p className="copyright">&copy; Copyright 2025 Robert Bonglamphone</p>
-      </footer>
+      <div className="padding"></div>
+      <Footer />
     </>
   );
 }

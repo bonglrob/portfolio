@@ -88,6 +88,35 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.padding {
+    height: 15rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.social-icons > a:hover {
+    color: var(--text-color-hover);
+}
+
+.footer-contents {
+    padding: 2rem;
+}
+
+.copyright {
+    margin: 0;
+}
+
+.top-border-gradient {
+    height: 0.5rem;
+    background: linear-gradient(90deg, rgba(230,130,210,1) 0%, rgba(254,204,244,1) 100%);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

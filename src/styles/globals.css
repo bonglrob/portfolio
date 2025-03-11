@@ -57,3 +57,7 @@ nav {
 nav:hover {
     color: var(--text-color-hover);
 }
+
+footer {
+    text-align: center;
+}
